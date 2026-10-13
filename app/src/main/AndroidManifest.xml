@@ -3,7 +3,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!-- Android 11+ ke liye Flipkart package read karne ki permission -->
     <queries>
         <package android:name="com.flipkart.android" />
     </queries>
@@ -12,7 +11,7 @@
         android:allowBackup="true"
         android:label="Flipkart Locker"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        android:theme="@android:style/Theme.Light.NoTitleBar">
         <activity
             android:name=".MainActivity"
             android:exported="true">
